@@ -2,7 +2,7 @@ import { BsFillPlusCircleFill } from "react-icons/bs";
 import { Title } from "../components/Title";
 export function Hero() {
 	return (
-		<>
+		<div className="relative overflow-hidden">
 			<div className="bg-gradient-to-r from-cyan-400 to-violet-400 absolute w-52 h-52 rounded-full scale-y-150 -rotate-45 opacity-75"></div>
 			<div className="bg-gradient-to-r from-violet-400 to-amber-200 absolute w-52 h-52 right-0 bottom-0 rounded-full scale-y-150 rotate-45 opacity-75"></div>
 
@@ -52,6 +52,6 @@ export function Hero() {
 					</button>
 				</main>
 			</div>
-		</>
+		</div>
 	);
 }
